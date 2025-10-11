@@ -15,7 +15,7 @@ function About() {
           setShowTyping(false);
           setShowAnswer(false);
 
-          setTimeout(() => setShowBotQuestion(true), 500);
+          setTimeout(() => setShowBotQuestion(true), 100);
           setTimeout(() => setShowTyping(true), 1500);
           setTimeout(() => setShowTyping(false), 2500);
           setTimeout(() => setShowAnswer(true), 3000);
@@ -35,14 +35,14 @@ function About() {
     { title: 'PYTHON', logo: '../logo/pyth.png' },
     { title: 'React', logo: '../logo/react.png' },
     { title: 'Spring Boot', logo: '../logo/springboot.png' },
-    { title: 'CodeIgniter 3', logo: '/images/mongo-logo.png' },
-    { title: 'Laravel', logo: '/images/firebase-logo.png' },
-    { title: 'Bootstrap', logo: '/images/git-logo.png' },
-    { title: 'MySQL', logo: '/images/github-logo.png' },
-    { title: 'Firebase', logo: '/images/figma-logo.png' },
-    { title: 'HTMLS', logo: '/images/tailwind-logo.png' },
-    { title: 'Visual Studio Code', logo: '/images/bootstrap-logo.png' },
-    { title: 'IntelliJ', logo: '/images/python-logo.png' },
+    { title: 'CodeIgniter 3', logo: '/logo/ci.png' },
+    { title: 'Laravel', logo: '../logo/Laravel.png' },
+    { title: 'Bootstrap', logo: '../logo//Bootstrap.png' },
+    { title: 'MySQL', logo: '../logo/sql.png' },
+    { title: 'Firebase', logo: '../logo/Firebase.png' },
+    { title: 'HTMLS', logo: '../logo/html5.png' },
+    { title: 'Visual Studio Code', logo: '../logo/vs.png' },
+    { title: 'IntelliJ', logo: '../logo/tellij.png' },
   ];
 
   return (

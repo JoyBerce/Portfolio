@@ -67,34 +67,35 @@ const Projects = () => {
     <div className="projects" id="projects">
       <div className="projects-container">
         <h1 className="projects-title">PROJECTS</h1>
+<div className="project-nav">
+  <div className="project-wrapper">
+    <button onClick={prevProject} className="project-btn project-btn-left">⟨</button>
 
-        <div className="project-nav">
-          <button onClick={prevProject} className="project-btn">⟨</button>
-
-          <div className="project-content">
-            <div className="project-image-container">
-              <img
-                src={currentProject.images[currentImageIndex]}
-                alt={currentProject.title}
-                className="project-image"
-              />
-              {totalImages > 1 && (
-                <div className="image-nav">
-                  <button onClick={prevImage}>◀</button>
-                  <span>{currentImageIndex + 1}/{totalImages}</span>
-                  <button onClick={nextImage}>▶</button>
-                </div>
-              )}
-            </div>
-
-            <div className="project-description">
-              <h2>{currentProject.title}</h2>
-              <p>{currentProject.description}</p>
-            </div>
+    <div className="project-content">
+      <div className="project-image-container">
+        <img
+          src={currentProject.images[currentImageIndex]}
+          alt={currentProject.title}
+          className="project-image"
+        />
+        {totalImages > 1 && (
+          <div className="image-nav">
+            <button onClick={prevImage}>◀</button>
+            <span>{currentImageIndex + 1}/{totalImages}</span>
+            <button onClick={nextImage}>▶</button>
           </div>
+        )}
+      </div>
+      <div className="project-description">
+        <h2>{currentProject.title}</h2>
+        <p>{currentProject.description}</p>
+      </div>
+    </div>
 
-          <button onClick={nextProject} className="project-btn">⟩</button>
-        </div>
+    <button onClick={nextProject} className="project-btn project-btn-right">⟩</button>
+  </div>
+</div>
+
       </div>
     </div>
   );
