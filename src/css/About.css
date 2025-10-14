@@ -32,7 +32,6 @@ h2 {
 }
 
 /* === Chat Container Styles === */
-
 .chat-container {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
@@ -45,6 +44,7 @@ h2 {
   min-height: 420px;
   overflow-y: auto;
   transition: transform 0.3s ease;
+  position: relative; 
 }
 
 .chat-container:hover {
@@ -131,6 +131,45 @@ h2 {
 
 .fade-in {
   animation: fadeIn 1.2s ease forwards;
+}
+
+
+
+/* === Typebox Styles === */
+.typebox-container {
+  position: absolute;
+  bottom: 20px; 
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 5; }
+
+.typebox {
+  width: 70%;
+  height: 40px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.typebox[readonly] {
+  pointer-events: none;
+}
+
+.typebox::placeholder {
+  color: #aaa;
+  font-size: 0.9rem;
 }
 
 /* === Animations === */

@@ -4,21 +4,50 @@ import "../css/Projects.css";
 
 const projectsData = [
   {
-    title: "KULTOURA: A WEB AND MOBILE TOUR NAVIGATION GUIDE WITH 360- PINNED VIRTUAL VIEW FOR MANILA",
+    title: "KULTOURA: A WEB AND MOBILE TOUR NAVIGATION GUIDE WITH 360-PINNED VIRTUAL VIEW FOR MANILA",
     images: ["../project/Kultoura (1).jpg", "../project/Kultoura (2).jpg"],
-    description:
-      "Kultoura is an app for both web and mobile that helps tourists have a better travel experience in Manila. It provides an easy-to-use platform for tourists to plan their trips, with a travel itinerary feature to track their to-dos and desired destinations. Kultoura connects tourists with drivers who offer fixed fare rates, so there’s no worry about overcharging. For added safety, the app includes a real-time chat feature during trips and a 360-degree virtual view, allowing users to track their journey and monitor their pick-up, drop-off, and current location.",
+    description: (
+      <>
+        Kultoura is a thesis project and a cross-platform app designed to enhance the travel experience for tourists in Manila. The app connects tourists with local drivers of kalesa, e-trikes, and e-jeepneys, offering fixed fare rates to eliminate concerns about overcharging. 
+        Features include a real-time chat for safety, a 360-degree pinned virtual view, and a customizable itinerary for a more interactive and informative journey. Users can easily track their location, pick-up, and drop-off points.
+        This project was developed using <span className="highlight-tech">PHP</span>, the <span className="highlight-tech">Laravel</span> framework, and <span className="highlight-tech">Firebase</span>.
+      </>
+    ),
   },
+
   {
-    title: "Clearance and Negative Listing",
+    title: "Clearance and Negative Listing System",
     images: ["/images/proj2-1.png", "/images/proj2-2.png"],
-    description: "Amazing second project description.",
+    description: (
+      <>
+        This project involves the creation of a clearance and negative listing system, enabling the management of individuals with financial or administrative issues within an organization. It ensures that users with pending clearances or violations are flagged and cannot proceed with certain transactions.
+        Developed with a focus on secure data handling and efficient processing of clearance statuses.
+      </>
+    ),
   },
+
   {
-    title: "Associates Portal (Weekly Schedule)",
+    title: "Associates Portal (Work Schedule)",
     images: ["/images/proj3-1.png", "/images/proj3-2.png"],
-    description: "Aesthetic and powerful third project.",
+    description: (
+      <>
+        The Associates Portal for Work Schedules streamlines employee schedule management. Employees can submit, confirm, and track their work schedules, ensuring they match their time-in and time-out records via fingerprint authentication when entering the workplace. The system also facilitates leave requests. 
+        Backend was built with <span className="highlight-tech">MySQL (Navicat)</span>, while frontend technologies include <span className="highlight-tech">CSS</span>, <span className="highlight-tech">HTML</span>, <span className="highlight-tech">Bootstrap</span>, and <span className="highlight-tech">PHP</span>.
+      </>
+    ),
   },
+
+  {
+    title: "Associates Portal (Attendance Report & Announcements)",
+    images: ["/images/proj3-1.png", "/images/proj3-2.png"],
+    description: (
+      <>
+        This project consolidates employee attendance reports and announcements in one portal. It allows the admin to manage attendance data for various branches (e.g., FEU Alabang, Tech, or Diliman) and push important announcements to employees. The system supports both admin and user roles, ensuring a seamless experience for all users.
+        Developed using <span className="highlight-tech">MySQL (Navicat)</span> for the backend, with <span className="highlight-tech">CSS</span>, <span className="highlight-tech">HTML</span>, <span className="highlight-tech">Bootstrap</span>, and <span className="highlight-tech">PHP</span> for the frontend, and <span className="highlight-tech">CodeIgniter3</span> for framework..
+      </>
+    ),
+  },
+
   {
     title: "Ultimate Dashboard",
     images: [
@@ -28,14 +57,32 @@ const projectsData = [
       "../project/ultdash (4).jpg",
       "../project/ultdash (5).jpg",
     ],
-    description: "Fifth project overview here.",
+    description: (
+      <>
+        The Ultimate Dashboard is a centralized platform that provides university staff with access to all internal applications in one interface. Designed for ease of navigation and optimal user experience, this project was developed using <span className="highlight-tech">PHP</span>, <span className="highlight-tech">CSS</span>, <span className="highlight-tech">HTML</span>, <span className="highlight-tech">Bootstrap</span>, and <span className="highlight-tech">CodeIgniter3</span> for framework.
+      </>
+    ),
   },
-  {
-    title: "Quokky Bites",
-    images: ["/images/proj6-1.png"],
-    description: "Final project showcase!",
+
+    {
+    title: "Quokky Bites: Online Food Ordering System",
+    images: ["../project/quokky-1.png",
+      "../project/quokky-2.png",
+      "../project/quokky-3.png",
+      "../project/quokky-4.png",
+      "../project/quokky-5.png",
+    ],
+    description: (
+      <>
+        Quokky Bites is an online food ordering system that allows users to browse and order food from various vendors, providing both user and admin interfaces for a smooth transaction process. It’s designed to enhance the customer ordering experience with a clean and user-friendly interface.
+        The backend was built using <span className="highlight-tech">MySQL</span>, while the frontend leverages <span className="highlight-tech">CSS</span>, <span className="highlight-tech">HTML</span>, <span className="highlight-tech">Bootstrap</span>, <span className="highlight-tech">PHP</span>, and <span className="highlight-tech">CodeIgniter3</span> for framework.
+      </>
+    ),
   },
-];
+]
+
+
+
 
 const Projects = () => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);

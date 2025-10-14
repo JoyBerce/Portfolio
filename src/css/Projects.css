@@ -144,8 +144,19 @@
 }
 
 .project-description p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
+  text-align: justify;
+}
+
+  .highlight-tech {
+  background-color: #000000; 
+  opacity: 50%;
+  color: #ffffff;           
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 /* Media Queries for Responsiveness */
@@ -243,4 +254,5 @@
   .project-description p {
     font-size: 0.9rem;
   }
+
 }

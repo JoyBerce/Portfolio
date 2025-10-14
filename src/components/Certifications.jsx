@@ -5,7 +5,7 @@ function Certifications() {
   return (
     <section id="certifications">
       <div className="cert-container">
-        <h2>Certifications</h2>
+        <h2>Certifications and Badges</h2>
         <div className="certifications-grid">
           <div className="card certification-card">
             <h3>React Developer Certification</h3>

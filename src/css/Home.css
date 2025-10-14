@@ -2,17 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 .section {
+  position: relative;
+  overflow: hidden;
   height: 80vh;
-  /* background: linear-gradient(85deg, #003135, #000000);  */
-  background:  #003135; 
-  color: #333;
-  transition: background 0.5s ease-in-out;
+  background: #003135;
+  color: #fff;
+  transition: background 0.3s ease-in-out;
   padding: 100px 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background-image: radial-gradient(
+    200px circle at var(--x) var(--y),
+    rgba(255, 255, 255, 0.15),
+    transparent 70%
+  );
+  background-repeat: no-repeat;
 }
 
 .profile-photo-container {

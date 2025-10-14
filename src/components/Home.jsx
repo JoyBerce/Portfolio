@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/Home.css';
 
 function Home() {
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e) => {
+    const { left, top } = e.currentTarget.getBoundingClientRect();
+    setMousePosition({
+      x: e.clientX - left,
+      y: e.clientY - top,
+    });
+  };
+
   return (
-    <section id="home" className="section">
+    <section
+      id="home"
+      className="section"
+      onMouseMove={handleMouseMove}
+      style={{
+        '--x': `${mousePosition.x}px`,
+        '--y': `${mousePosition.y}px`,
+      }}
+    >
       <div className="container">
         <div className="profile-photo-container">
           <img src="grad pic.jpg" alt="Jody" className="profile-photo" />
@@ -17,4 +35,3 @@ function Home() {
 }
 
 export default Home;
-

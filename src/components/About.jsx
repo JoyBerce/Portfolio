@@ -81,7 +81,13 @@ function About() {
                 className="profile-photo"
               />
             </div>
+            
           )}
+          
+          <div className="typebox-container">
+            <div className="typebox"></div>
+          </div>
+
         </div>
 
         {/* Skill Highlights Section */}
