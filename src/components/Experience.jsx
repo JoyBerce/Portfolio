@@ -6,7 +6,7 @@ const experiences = [
     title: "Full-Stack Developer Intern",
     company: "FEU Information Technology Service Unit (ITSO)",
     duration: "Nov 2024 – Jul 2025",
-    image: "/images/itso.jpg", 
+    image: "../experience/intern2.jpg", 
     details: [
       "Designed and developed the Associates Portal with modules like Clearance, Announcements, Time & Attendance, and more.",
       "Used PHP, HTML, CSS, Bootstrap, CodeIgniter 3, and MySQL (Navicat).",

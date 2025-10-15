@@ -1,4 +1,3 @@
-// my-portfolio/src/components/Projects.jsx
 import React, { useState } from "react";
 import "../css/Projects.css";
 
@@ -17,7 +16,12 @@ const projectsData = [
 
   {
     title: "Clearance and Negative Listing System",
-    images: ["/images/proj2-1.png", "/images/proj2-2.png"],
+    images: ["../project/cnl(0).png", 
+      "../project/cnl(0.1).png", 
+      "../project/cnl(1).png",
+      "../project/cnl(2).png", 
+      "../project/cnl(3).png", 
+      "../project/cnl(4).png",],
     description: (
       <>
         This project involves the creation of a clearance and negative listing system, enabling the management of individuals with financial or administrative issues within an organization. It ensures that users with pending clearances or violations are flagged and cannot proceed with certain transactions.
@@ -28,7 +32,10 @@ const projectsData = [
 
   {
     title: "Associates Portal (Work Schedule)",
-    images: ["/images/proj3-1.png", "/images/proj3-2.png"],
+    images:["../project/ws(1).png", 
+      "../project/ws(2).png",
+      "../project/ws(3).png", 
+      "../project/ws(4).png", ],
     description: (
       <>
         The Associates Portal for Work Schedules streamlines employee schedule management. Employees can submit, confirm, and track their work schedules, ensuring they match their time-in and time-out records via fingerprint authentication when entering the workplace. The system also facilitates leave requests. 
@@ -39,7 +46,11 @@ const projectsData = [
 
   {
     title: "Associates Portal (Attendance Report & Announcements)",
-    images: ["/images/proj3-1.png", "/images/proj3-2.png"],
+    images: ["../project/assoc (1).png", 
+      "../project/assoc (2).png",
+      "../project/assoc (3).png", 
+      "../project/assoc (4).png", ],
+
     description: (
       <>
         This project consolidates employee attendance reports and announcements in one portal. It allows the admin to manage attendance data for various branches (e.g., FEU Alabang, Tech, or Diliman) and push important announcements to employees. The system supports both admin and user roles, ensuring a seamless experience for all users.

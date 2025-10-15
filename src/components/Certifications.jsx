@@ -26,22 +26,23 @@ function Certifications() {
             </div>
           </div>
         </div>
-
-        {/* Badges Section */}
         <div className="badge-section">
           <h3>Badges</h3>
           <div className="badge-grid">
             <div className="badge">
-              <img src="path_to_html_badge.jpg" alt="HTML5 Badge" />
+              <img src="../cert/CCNA.png" alt="HTML5 Badge" />
             </div>
             <div className="badge">
-              <img src="path_to_css_badge.jpg" alt="CSS3 Badge" />
+              <img src="../cert/CCNAITN.png" alt="JavaScript Badge" />
+            </div>
+                        <div className="badge">
+              <img src="../cert/CCNASRWE.png" alt="JavaScript Badge" />
             </div>
             <div className="badge">
-              <img src="path_to_react_badge.jpg" alt="React Badge" />
+              <img src="../cert/cyberops.png" alt="CSS3 Badge" />
             </div>
             <div className="badge">
-              <img src="path_to_js_badge.jpg" alt="JavaScript Badge" />
+              <img src="../cert/devnet.png" alt="HTML5 Badge" />
             </div>
           </div>
         </div>
