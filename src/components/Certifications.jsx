@@ -13,8 +13,8 @@ function Certifications() {
             </div>
             <div className="cert-description">
               <h3>Cybersecurity</h3>
-              <p>The purpose of obtaining an Information Technology Specialist Certification in Cybersecurity is to demonstrates that the earner has achieved competency in key areas such as network security, threats and vulnerabilities, and security best practices. It serves as a valuable credential for those pursuing careers in information security, enhancing employability and supporting further advancement in the IT field. </p>      
-          </div>
+              <p>The purpose of obtaining an Information Technology Specialist Certification in Cybersecurity is to demonstrates that the earner has achieved competency in key areas such as network security, threats and vulnerabilities, and security best practices. It serves as a valuable credential for those pursuing careers in information security, enhancing employability and supporting further advancement in the IT field.</p>      
+            </div>
           </div>
           <div className="card certification-card">
             <div className="certification-image">
@@ -35,7 +35,7 @@ function Certifications() {
             <div className="badge">
               <img src="../cert/CCNAITN.png" alt="JavaScript Badge" />
             </div>
-                        <div className="badge">
+            <div className="badge">
               <img src="../cert/CCNASRWE.png" alt="JavaScript Badge" />
             </div>
             <div className="badge">
