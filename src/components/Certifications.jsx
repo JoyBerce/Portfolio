@@ -26,7 +26,7 @@ function Certifications() {
             </div>
           </div>
         </div>
-        <div className="badge-section">
+        {/* <div className="badge-section">
           <h3>Badges</h3>
           <div className="badge-grid">
             <div className="badge">
@@ -45,7 +45,7 @@ function Certifications() {
               <img src="../cert/devnet.png" alt="HTML5 Badge" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
